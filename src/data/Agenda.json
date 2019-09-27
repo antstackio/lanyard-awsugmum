@@ -20,8 +20,8 @@
         ]
       },
       {
-        "eventType": "talk",
-        "img": "talk",
+        "eventType": "default",
+        "img": "default",
         "room": null,
         "slotId": "slot-2",
         "timeStart": 1569641400000,
@@ -47,8 +47,8 @@
         ]
       },
       {
-        "eventType": "talk",
-        "img": "talk",
+        "eventType": "default",
+        "img": "default",
         "room": null,
         "slotId": "slot-3",
         "timeStart": 1569644100000,
@@ -475,8 +475,8 @@
         ]
       },
       {
-        "eventType": "talk",
-        "img": "talk",
+        "eventType": "default",
+        "img": "default",
         "room": null,
         "slotId": "slot-15",
         "timeStart": 1569668400000,

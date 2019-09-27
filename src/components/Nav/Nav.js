@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react"
+import React, { useEffect, useState } from "react"
 import { Link, navigate, useStaticQuery, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import { media } from "../jss/cvcss"
@@ -10,8 +10,6 @@ import agenda from "../../images/agenda.svg"
 import FlyMenu from "../FlyMenu/FlyMenu"
 import Variables from "../jss/Variables"
 
-
-
 const Nav = () => {
   const [lsFeedBack, setLsFeedBack] = useState("")
   const [lsSlots, setLsSlots] = useState("")
@@ -20,8 +18,6 @@ const Nav = () => {
     setLsFeedBack(JSON.parse(localStorage.getItem("feedback")))
     setLsSlots(JSON.parse(localStorage.getItem("slots")))
   }, [])
-
-
 
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -32,7 +28,6 @@ const Nav = () => {
       }
     }
   `)
-
 
   const siteTitle = data.site.siteMetadata.title
 
@@ -48,17 +43,20 @@ const Nav = () => {
           </span>
         }
       >
-        <a css={lanyard_logo} target="_blank" href="https://github.com/antstackio/lanyard">
+        <a
+          css={lanyard_logo}
+          target="_blank"
+          href="https://github.com/antstackio/lanyard"
+        >
           {siteTitle}
         </a>
         <ul css={sub_menu}>
-          <li className="faq ico large">
+          {/* <li className="faq ico large">
             <Link to="/Volunteers">Volunteers</Link>
-          </li>
+          </li> */}
           <li className="contact ico large">
             <Link to="/Sponsers">Sponsors</Link>
           </li>
-
 
           {/* <hr></hr>
           <li className="about ico large">
@@ -158,18 +156,18 @@ const nav_bar = css`
 `
 
 const lanyard_logo = css`
-    text-decoration: none;
+  text-decoration: none;
   font-size: 0;
   height: 100px;
-  ${media.mn}{
+  ${media.mn} {
     height: 75px;
   }
   background: url(${logo}) top 75% center no-repeat;
   background-size: auto 60%;
   display: block;
   margin: 15px 0;
-  &:before{
-        content: "Powered by";
+  &:before {
+    content: "Powered by";
     display: block;
     font-size: 12px;
     width: 100%;
@@ -187,7 +185,7 @@ const sub_menu = css`
     a {
       display: block;
       padding: 15px 25px;
-      ${media.mn}{
+      ${media.mn} {
         padding: 10px 25px;
       }
       color: ${Variables.dark_base_color};
@@ -199,7 +197,7 @@ const sub_menu = css`
   }
   hr {
     margin: 90px 0 0;
-    ${media.mn}{
+    ${media.mn} {
       margin: 50px 0 0;
     }
     & ~ li {
