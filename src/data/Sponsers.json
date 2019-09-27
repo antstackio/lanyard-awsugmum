@@ -5,19 +5,9 @@
         "tierName": "platinum",
         "brands": [
           {
-            "sponserName": "Jfrog",
-            "sponserWebsiteLink": "https://jfrog.com/",
-            "sponserLogo": "jfrog.jpg"
-          },
-          {
-            "sponserName": "Amazon Alexa",
-            "sponserWebsiteLink": "https://developer.amazon.com/alexa",
-            "sponserLogo": "alexa.jpg"
-          },
-          {
-            "sponserName": "Freshworks",
-            "sponserWebsiteLink": "https://www.freshworks.com",
-            "sponserLogo": "freshworks.jpg"
+            "sponserName": "Clever Tap",
+            "sponserWebsiteLink": "https://clevertap.com/",
+            "sponserLogo": "cleverTap.jpg"
           }
         ]
       },
@@ -25,19 +15,9 @@
         "tierName": "gold",
         "brands": [
           {
-            "sponserName": "Elastic",
-            "sponserWebsiteLink": "https://elastic.co",
-            "sponserLogo": "elastic.jpg"
-          },
-          {
-            "sponserName": "Postman",
-            "sponserWebsiteLink": "https://getpostman.com",
-            "sponserLogo": "postman.jpg"
-          },
-          {
-            "sponserName": "Epsilon",
-            "sponserWebsiteLink": "https://india.epsilon.com",
-            "sponserLogo": "epsilon.jpg"
+            "sponserName": "Sumo Logic",
+            "sponserWebsiteLink": "https://sumologic.com",
+            "sponserLogo": "sumologic.jpg"
           }
         ]
       },
@@ -45,34 +25,19 @@
         "tierName": "silver",
         "brands": [
           {
-            "sponserName": "Sumo Logic",
-            "sponserWebsiteLink": "https://sumologic.com",
-            "sponserLogo": "sumologic.jpg"
+            "sponserName": "Redis Labs",
+            "sponserWebsiteLink": "https://redislabs.com/",
+            "sponserLogo": "redislabs.jpg"
           },
           {
-            "sponserName": "Jetbrains",
-            "sponserWebsiteLink": "https://jetbrains.com",
-            "sponserLogo": "jetbrains.jpg"
+            "sponserName": "Coralogix",
+            "sponserWebsiteLink": "https://coralogix.com/",
+            "sponserLogo": "coralogix.jpg"
           },
           {
-            "sponserName": "Powerup",
-            "sponserWebsiteLink": "https://powerupcloud.com",
-            "sponserLogo": "powerup.jpg"
-          },
-          {
-            "sponserName": "Tensult",
-            "sponserWebsiteLink": "https://tensult.com",
-            "sponserLogo": "tensult.jpg"
-          },
-          {
-            "sponserName": "Cloudyuga.guru",
-            "sponserWebsiteLink": "https://cloudyuga.guru",
-            "sponserLogo": "cloudyuga.jpg"
-          },
-          {
-            "sponserName": "Hasura",
-            "sponserWebsiteLink": "https://hasura.io/",
-            "sponserLogo": "hasura.jpg"
+            "sponserName": "A Cloud Guru",
+            "sponserWebsiteLink": "https://acloud.guru/",
+            "sponserLogo": "acloudguru.jpg"
           }
         ]
       },
@@ -80,54 +45,24 @@
         "tierName": "community",
         "brands": [
           {
-            "sponserName": "Woman Who Code Bangalore",
-            "sponserWebsiteLink": "https://www.womenwhocode.com/bangalore",
-            "sponserLogo": "wwc.jpg"
+            "sponserName": "Antstack.io",
+            "sponserWebsiteLink": "https://antstack.io/",
+            "sponserLogo": "antstackio.jpg"
           },
           {
-            "sponserName": "WheelsBox.com",
-            "sponserWebsiteLink": "https://wheelsbox.com/",
-            "sponserLogo": "wheelsbox.jpg"
-          },
-          {
-            "sponserName": "Indian Startups ",
-            "sponserWebsiteLink": "https://www.meetup.com/indianstartupsbangalore/",
-            "sponserLogo": "indianstartups.jpg"
-          },
-          {
-            "sponserName": "Wone Creations",
-            "sponserWebsiteLink": "https://www.wonecreations.com/",
-            "sponserLogo": "wone.jpg"
-          },
-          {
-            "sponserName": "Konfhub",
+            "sponserName": "Konf Hub",
             "sponserWebsiteLink": "https://konfhub.com/",
             "sponserLogo": "konfhub.jpg"
           },
           {
-            "sponserName": "Fame Technologies",
-            "sponserWebsiteLink": "http://www.fametechnologies.in/",
-            "sponserLogo": "fame.jpg"
+            "sponserName": "Py Data Mumbai",
+            "sponserWebsiteLink": "https://www.meetup.com/PyDataMumbai/",
+            "sponserLogo": "pydata.jpg"
           },
           {
-            "sponserName": "Developer Circles",
-            "sponserWebsiteLink": "https://www.facebook.com/groups/DevCBengaluru/",
-            "sponserLogo": "fbdcblr.jpg"
-          },
-          {
-            "sponserName": "Go Clouds",
-            "sponserWebsiteLink": "https://www.goclouds.com/",
-            "sponserLogo": "goclouds.jpg"
-          },
-          {
-            "sponserName": "KnowledgeHut",
-            "sponserWebsiteLink": "https://www.knowledgehut.com/",
-            "sponserLogo": "knowledgehut.jpg"
-          },
-          {
-            "sponserName": "EFY Group",
-            "sponserWebsiteLink": "https://efy.in/",
-            "sponserLogo": "efy.jpg"
+            "sponserName": "Vidyalankar Institute of Technology",
+            "sponserWebsiteLink": "https://vit.edu.in/",
+            "sponserLogo": "vit.jpg"
           }
         ]
       }
