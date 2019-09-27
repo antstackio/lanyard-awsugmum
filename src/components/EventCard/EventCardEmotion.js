@@ -26,6 +26,13 @@ export const eventCard = css`
   &.inv {
     justify-content: flex-start;
   }
+  .swirlbg svg#homebgsvg {
+    height: 100%;
+    transform: scaleX(2);
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
+  }
   .speaker {
     p ~ p {
       line-height: 1;
