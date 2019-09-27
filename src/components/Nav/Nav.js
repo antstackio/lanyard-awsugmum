@@ -48,7 +48,7 @@ const Nav = () => {
           </span>
         }
       >
-        <a css={lanyard_logo} target="_blank" href="https://github.com/hnprashanth/lanyard">
+        <a css={lanyard_logo} target="_blank" href="https://github.com/antstackio/lanyard">
           {siteTitle}
         </a>
         <ul css={sub_menu}>

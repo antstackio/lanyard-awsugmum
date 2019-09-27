@@ -263,12 +263,13 @@ const slotSelected = css`
     border-right-color: ${Variables.dark_base_color};
   }
   > *:not(.form-container),
-  > *:not(.form-container) * {
+  > *:not(.form-container) *:not(button) {
     color: #fff !important;
+    fill:  #fff !important;
   }
   button {
     background: #fff;
-    color: ${Variables.wb_red} !important;
+    color: ${Variables.dark_base_color} !important;
   }
 `
 

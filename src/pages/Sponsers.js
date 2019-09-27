@@ -171,7 +171,8 @@ const SponserItem = styled.li`
 `
 const spoImage = css`
   padding: 0 10px;
-  margin: 25px 0;
+  margin: 10px 0;
+  width: 100%;
   img {
     max-width: 100%;
   }

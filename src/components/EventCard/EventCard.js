@@ -10,6 +10,8 @@ import DefaultSVG from "../ImageComponents/DefaultSVG"
 import WelcomeSVG from "../ImageComponents/WelcomeSVG"
 import EndSVG from "../ImageComponents/EndSVG"
 
+import defDP from "../../images/vols/default.jpg"
+
 import RatingStars from "../RatingStars"
 import _ from "lodash"
 import Loader from "../Loader"
@@ -175,7 +177,8 @@ const EventCard = () => {
                             key={idx}
                           >
                             <span className="profimg">
-                              <img src={images[speaker.profilePicture]} alt={speaker.profilePicture} />
+                              <img src={defDP} alt="image"/>
+                              {/* <img src={images[speaker.profilePicture]} alt={speaker.profilePicture} /> */}
                             </span>{" "}
                             <span>{speaker.firstName}</span>
                           </div>
